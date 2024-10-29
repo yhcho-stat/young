@@ -3,124 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Young Hyun Cho's Academic Homepage</title>
+    <title>Young Hyun Cho - Academic Homepage</title>
     <style>
-        /* Reset Margin and Padding */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
         /* Basic Styling */
         body {
             font-family: Arial, sans-serif;
             color: #333;
-            background-color: #f5f7fa;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
             display: flex;
             justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
         }
-        
+
         /* Main Container */
         .container {
-            max-width: 900px;
-            width: 100%;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
+            max-width: 700px;
+            padding: 20px;
+            margin: 40px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        
+
         /* Header */
         header {
-            background-color: #00509e;
-            color: #fff;
-            padding: 20px;
             text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
         }
         
-        /* Navigation Bar Styling */
+        header h1 {
+            font-size: 1.8em;
+            margin: 0;
+            color: #00509e;
+        }
+        
+        /* Navigation */
         nav {
-            background-color: #007acc;
-            padding: 15px;
             text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+            border-bottom: 1px solid #e0e0e0;
         }
         
         nav a {
-            margin: 0 15px;
+            color: #333;
             text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-            transition: color 0.3s ease;
+            margin: 0 15px;
         }
-        
+
         nav a:hover {
-            color: #ffdd40;
+            color: #00509e;
         }
-        
+
         /* Section Styling */
         section {
-            padding: 20px;
-            margin-bottom: 15px;
+            padding: 20px 0;
+            border-bottom: 1px solid #e0e0e0;
         }
-        
+
         h2 {
-            color: #00509e;
+            font-size: 1.4em;
+            color: #333;
             margin-bottom: 10px;
         }
-        
-        h3 {
-            color: #007acc;
-            margin-bottom: 8px;
-        }
-        
-        /* List Styling */
-        ul {
-            list-style-type: square;
-            padding-left: 20px;
-            margin-top: 10px;
-        }
-        
-        ul li {
-            margin-bottom: 8px;
-        }
-        
-        /* Link Styling */
-        a {
-            color: #007acc;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        
-        a:hover {
-            text-decoration: underline;
-        }
-        
+
         /* Footer */
         footer {
-            background-color: #00509e;
-            color: #fff;
             text-align: center;
-            padding: 10px;
-            font-size: 0.9em;
+            font-size: 0.8em;
+            color: #777;
+            padding-top: 10px;
         }
     </style>
 </head>
 <body>
-
     <div class="container">
-
         <!-- Header -->
         <header>
-            <h1>Welcome to Young Hyun Cho's Academic Homepage</h1>
+            <h1>Young Hyun Cho</h1>
+            <p>Ph.D. Candidate in Statistics, Purdue University</p>
         </header>
 
         <!-- Navigation Bar -->
         <nav>
-            <a href="#about">About Me</a>
+            <a href="#about">About</a>
             <a href="#research">Research</a>
             <a href="#teaching">Teaching</a>
             <a href="#contact">Contact</a>
@@ -129,48 +97,45 @@
         <!-- About Section -->
         <section id="about">
             <h2>About Me</h2>
-            <p>I am Young Hyun Cho, a researcher with interests in Differential Privacy and Reinforcement Learning. Currently, I work as a Ph.D. candidate in the Department of Statistics at Purdue University.</p>
-            
+            <p>I am Young Hyun Cho, a Ph.D. candidate specializing in Differential Privacy and Reinforcement Learning. My work is focused on privacy-preserving algorithms and statistical methodologies.</p>
             <h3>Education</h3>
             <ul>
-                <li><strong>Ph.D. in Statistics</strong> - Purdue University</li>
-                <li><strong>M.S. in Statistics</strong> - [Your Master’s University]</li>
-                <li><strong>B.S. in Mathematics</strong> - [Your Undergraduate University]</li>
+                <li>Ph.D. in Statistics - Purdue University</li>
+                <li>M.S. in Statistics - [Your Master’s University]</li>
+                <li>B.S. in Mathematics - [Your Undergraduate University]</li>
             </ul>
         </section>
 
         <!-- Research Section -->
         <section id="research">
             <h2>Research</h2>
-            <p>My research focuses on privacy-preserving algorithms and reinforcement learning methods. Here are a few of my recent research contributions:</p>
+            <p>My research centers on:</p>
             <ul>
-                <li><a href="link-to-paper1" target="_blank">Title of Research Paper 1</a> - Journal Name, Year</li>
-                <li><a href="link-to-paper2" target="_blank">Title of Research Paper 2</a> - Journal Name, Year</li>
+                <li><a href="link-to-paper1" target="_blank">Privacy-Preserving Bandit Algorithms</a> - Journal Name, Year</li>
+                <li><a href="link-to-paper2" target="_blank">Reinforcement Learning in Health Networks</a> - Journal Name, Year</li>
             </ul>
         </section>
 
         <!-- Teaching Section -->
         <section id="teaching">
             <h2>Teaching</h2>
-            <p>As a teaching assistant and instructor, I have taught courses in introductory statistics, advanced probability, and more. I am committed to creating engaging and inclusive learning environments for my students.</p>
+            <p>I teach courses in statistics, focusing on both introductory and advanced topics in probability and data analysis.</p>
             <ul>
-                <li><strong>STAT 101 - Introduction to Statistics</strong> - Purdue University</li>
-                <li><strong>STAT 301 - Intermediate Statistics</strong> - Purdue University</li>
+                <li>Introduction to Statistics (STAT 101)</li>
+                <li>Intermediate Statistics (STAT 301)</li>
             </ul>
         </section>
 
         <!-- Contact Section -->
         <section id="contact">
             <h2>Contact</h2>
-            <p>Feel free to reach out to me via email at <a href="mailto:cho472@purdue.edu">cho472@purdue.edu</a>.</p>
+            <p>Email: <a href="mailto:cho472@purdue.edu">cho472@purdue.edu</a></p>
         </section>
 
         <!-- Footer -->
         <footer>
-            <p>© 2024 Young Hyun Cho. All Rights Reserved.</p>
+            <p>© 2024 Young Hyun Cho</p>
         </footer>
-        
     </div>
-
 </body>
 </html>
