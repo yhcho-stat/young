@@ -3,86 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name's Academic Homepage</title>
+    <title>Young Hyun Cho's Academic Homepage</title>
     <style>
+        /* Reset Margin and Padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         /* Basic Styling */
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
             color: #333;
-            line-height: 1.6;
+            background-color: #f5f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
         }
+        
+        /* Main Container */
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        /* Header */
+        header {
+            background-color: #00509e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
         /* Navigation Bar Styling */
         nav {
+            background-color: #007acc;
+            padding: 15px;
             text-align: center;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 1px solid #ccc;
         }
+        
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #007acc;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
         }
+        
         nav a:hover {
-            text-decoration: underline;
+            color: #ffdd40;
         }
+        
         /* Section Styling */
         section {
-            margin-top: 30px;
+            padding: 20px;
+            margin-bottom: 15px;
         }
-        h1, h2 {
+        
+        h2 {
             color: #00509e;
+            margin-bottom: 10px;
+        }
+        
+        h3 {
+            color: #007acc;
+            margin-bottom: 8px;
+        }
+        
+        /* List Styling */
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+        
+        ul li {
+            margin-bottom: 8px;
+        }
+        
+        /* Link Styling */
+        a {
+            color: #007acc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #00509e;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="#about">About Me</a> |
-        <a href="#publications">Publications</a> |
-        <a href="#projects">Projects</a> |
-        <a href="#contact">Contact</a>
-    </nav>
+    <div class="container">
 
-    <!-- Welcome Heading -->
-    <h1>Welcome to My Academic Homepage</h1>
+        <!-- Header -->
+        <header>
+            <h1>Welcome to Young Hyun Cho's Academic Homepage</h1>
+        </header>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome! I am [Your Name], a researcher with interests in [Field/Research Interests]. Currently, I work as a [Your Position] at [Your Institution]. My work focuses on [Short Description of Your Academic Focus].</p>
-    </section>
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#research">Research</a>
+            <a href="#teaching">Teaching</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-    <!-- Publications Section -->
-    <section id="publications">
-        <h2>Publications</h2>
-        <ul>
-            <li><a href="link-to-paper1" target="_blank">Title of Paper 1</a> - Journal Name, Year</li>
-            <li><a href="link-to-paper2" target="_blank">Title of Paper 2</a> - Journal Name, Year</li>
-            <!-- Add more papers as needed -->
-        </ul>
-    </section>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am Young Hyun Cho, a researcher with interests in Differential Privacy and Reinforcement Learning. Currently, I work as a Ph.D. candidate in the Department of Statistics at Purdue University.</p>
+            
+            <h3>Education</h3>
+            <ul>
+                <li><strong>Ph.D. in Statistics</strong> - Purdue University</li>
+                <li><strong>M.S. in Statistics</strong> - [Your Master’s University]</li>
+                <li><strong>B.S. in Mathematics</strong> - [Your Undergraduate University]</li>
+            </ul>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Here are a few of my ongoing and past projects:</p>
-        <ul>
-            <li><a href="https://github.com/yourusername/project1" target="_blank">Project 1</a> - A brief description of what this project is about.</li>
-            <li><a href="https://github.com/yourusername/project2" target="_blank">Project 2</a> - A brief description of what this project is about.</li>
-            <!-- Add more projects as needed -->
-        </ul>
-    </section>
+        <!-- Research Section -->
+        <section id="research">
+            <h2>Research</h2>
+            <p>My research focuses on privacy-preserving algorithms and reinforcement learning methods. Here are a few of my recent research contributions:</p>
+            <ul>
+                <li><a href="link-to-paper1" target="_blank">Title of Research Paper 1</a> - Journal Name, Year</li>
+                <li><a href="link-to-paper2" target="_blank">Title of Research Paper 2</a> - Journal Name, Year</li>
+            </ul>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me via email at <a href="mailto:yourname@example.com">yourname@example.com</a>.</p>
-    </section>
+        <!-- Teaching Section -->
+        <section id="teaching">
+            <h2>Teaching</h2>
+            <p>As a teaching assistant and instructor, I have taught courses in introductory statistics, advanced probability, and more. I am committed to creating engaging and inclusive learning environments for my students.</p>
+            <ul>
+                <li><strong>STAT 101 - Introduction to Statistics</strong> - Purdue University</li>
+                <li><strong>STAT 301 - Intermediate Statistics</strong> - Purdue University</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via email at <a href="mailto:cho472@purdue.edu">cho472@purdue.edu</a>.</p>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2024 Young Hyun Cho. All Rights Reserved.</p>
+        </footer>
+        
+    </div>
 
 </body>
 </html>
