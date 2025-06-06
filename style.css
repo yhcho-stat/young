@@ -193,3 +193,12 @@ footer {
     padding-top: 20px;
     margin-top: 40px;
 }
+
+/* ===== 수상 경력 스타일 (추가됨) ===== */
+.publication-award {
+    color: #00509e; /* 테마의 파란색으로 강조 */
+    font-weight: 600; /* 살짝 굵게 */
+    font-size: 0.95em;
+    margin: 8px 0;
+    padding-left: 5px;
+}
