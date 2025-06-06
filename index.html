@@ -4,162 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Young Hyun Cho - Academic Homepage</title>
-    <style>
-        /* Basic Styling */
-        body {
-            font-family: Arial, sans-serif;
-            color: #333;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #fafafa;
-            display: flex;
-            justify-content: center;
-        }
-
-        /* Main Container */
-        .container {
-            max-width: 700px;
-            padding: 20px;
-            margin: 40px;
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Header */
-        header {
-            text-align: center;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        
-        header h1 {
-            font-size: 1.8em;
-            margin: 0;
-            color: #00509e;
-        }
-        
-        /* Navigation */
-        nav {
-            text-align: center;
-            padding: 20px 0;
-            font-size: 0.9em;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        
-        nav a {
-            color: #333;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-        nav a:hover {
-            color: #00509e;
-        }
-
-        /* Section Styling */
-        section {
-            padding: 20px 0;
-            border-bottom: 1px solid #e0e0e0;
-        }
-
-        h2 {
-            font-size: 1.4em;
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            font-size: 0.8em;
-            color: #777;
-            padding-top: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <!-- Header -->
-        <header>
-            <h1>Young Hyun Cho</h1>
-            <p>Ph.D. Candidate in Statistics, Purdue University</p>
-        </header>
-
-        <!-- Navigation Bar -->
-        <nav>
-            <a href="#about">About</a>
-            <a href="#research">Research</a>
-            <a href="#teaching">Teaching</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <!-- About Section -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am Young Hyun Cho, a Ph.D. candidate in the Department of Statistics at Purdue University. My research focuses on Differential Privacy, Reinforcement Learning, and Statistical Inference, with a broad interest in the application of statistical methods across various domains.</p>
-            <h3>Education</h3>
-            <ul>
-                <li>Ph.D. in Statistics, 2021-Current - Purdue University</li>
-                <li>M.S. in Statistics, 2019-2021 - Seoul National University</li>
-                <li>Bachelor of Economics, 2011-2019 - Sogang University</li>
-            </ul>
-        </section>
-
-        <!-- Research Section -->
-        <section id="research">
-            <h2>Research</h2>
-            <p>My research centers on:</p>
-            <ul>
-                <li><a href="https://arxiv.org/pdf/2410.22488" target="_blank">Privacy-Preserving Dynamic Assortment Selection</a> - arxiv, 2024</li>
-                <li><a href="https://arxiv.org/pdf/2410.17468" target="_blank">Formal Privacy Guarantees with Invariant Statistics</a> - arxiv, 2024</li>
-            </ul>
-        </section>
-
-        <!-- Teaching Section -->
-        <section id="teaching">
-            <h2>Teaching</h2>
-            <h3>Instructor</h3>
-            <p>Purdue University, Department of Statistics, Fall 2024</p>
-            <ul>
-                <li><strong>STAT 301: Elementary Statistical Methods</strong> - <a href="https://github.com/yhcho-stat/young/raw/main/STAT301_Syllabus.pdf" target="_blank">Syllabus</a>
-                    <ul>
-                        <li>Lectured on elementary statistics to 2 sections of 60 undergraduate students</li>
-                        <li>Covered inferential techniques and data analysis methods and taught SPSS usage as a statistical software</li>
-                    </ul>
-                </li>
-            </ul>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <div class="profile-image-container">
+                <img src="YHCHO_profile.jpg" alt="Young Hyun Cho" class="profile-image">
+            </div>
             
-            <h3>Teaching Assistant</h3>
-            <p>Purdue University, Department of Statistics</p>
-            <ul>
-                <li>STAT 301: Elementary Statistical Methods (Fall 2021 -)</li>
-            </ul>
-            <p>Seoul National University, Department of Statistics</p>
-            <ul>
-                <li>Statistical Experimen (Fall2020, Spring 2021)</li>
-                <li>Statistics (Fall 2019)</li>
-            </ul>
-            <h3>Student Tutor</h3>
-            <p>Sogang University</p>
-            <ul>
-                <li>Math Help Center, Department of Mathematics</li>
-                <li>Macro Economics</li>
-                <li>Economic Statistics</li>
-                <li>Econometrics </li>
-            </ul>
-        </section>
+            <h1>Young Hyun Cho</h1>
+            <p class="title">Ph.D. Candidate in Statistics</p>
+            <p class="affiliation">Purdue University</p>
 
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:cho472@purdue.edu">cho472@purdue.edu</a></p>
-        </section>
+            <nav class="navigation">
+                <a href="#about">About</a>
+                <a href="#research">Research</a>
+                <a href="#teaching">Teaching</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-        <!-- Footer -->
-        <footer>
-            <p>© 2024 Young Hyun Cho</p>
-        </footer>
+            <div class="contact-links">
+                <a href="mailto:cho472@purdue.edu">Email</a>
+                <a href="https://github.com/yhcho-stat" target="_blank">GitHub</a>
+                <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a>
+                <a href="https://github.com/yhcho-stat/young/raw/main/STAT301_Syllabus.pdf" target="_blank">CV</a>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I am Young Hyun Cho, a Ph.D. candidate in the Department of Statistics at Purdue University. My research focuses on Differential Privacy, Reinforcement Learning, and Statistical Inference, with a broad interest in the application of statistical methods across various domains.</p>
+                <h3>Education</h3>
+                <ul>
+                    <li>Ph.D. in Statistics, 2021-Current - Purdue University</li>
+                    <li>M.S. in Statistics, 2019-2021 - Seoul National University</li>
+                    <li>Bachelor of Economics, 2011-2019 - Sogang University</li>
+                </ul>
+            </section>
+
+            <section id="research">
+                <h2>Research</h2>
+                <div class="publication">
+                    <p class="publication-title"><a href="https://arxiv.org/pdf/2410.22488" target="_blank">Privacy-Preserving Dynamic Assortment Selection</a></p>
+                    <p class="publication-meta">Y. H. Cho, W. Su. (2024). <i>arXiv preprint</i>.</p>
+                </div>
+                <div class="publication">
+                    <p class="publication-title"><a href="https://arxiv.org/pdf/2410.17468" target="_blank">Formal Privacy Guarantees with Invariant Statistics</a></p>
+                    <p class="publication-meta">Y. H. Cho, W. Su. (2024). <i>arXiv preprint</i>.</p>
+                </div>
+            </section>
+
+            <section id="teaching">
+                <h2>Teaching</h2>
+                <h3>Instructor</h3>
+                <p><strong>Purdue University, Department of Statistics</strong> (Fall 2024)</p>
+                <ul>
+                    <li><strong>STAT 301: Elementary Statistical Methods</strong> - <a href="https://github.com/yhcho-stat/young/raw/main/STAT301_Syllabus.pdf" target="_blank">Syllabus</a>
+                        <ul>
+                            <li>Lectured on elementary statistics to 2 sections of 60 undergraduate students.</li>
+                            <li>Covered inferential techniques and data analysis methods and taught SPSS usage as a statistical software.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>Teaching Assistant</h3>
+                <p><strong>Purdue University, Department of Statistics</strong></p>
+                <ul>
+                    <li>STAT 301: Elementary Statistical Methods (Fall 2021 -)</li>
+                </ul>
+                <p><strong>Seoul National University, Department of Statistics</strong></p>
+                <ul>
+                    <li>Statistical Experiment (Fall 2020, Spring 2021)</li>
+                    <li>Statistics (Fall 2019)</li>
+                </ul>
+
+                <h3>Student Tutor</h3>
+                <p><strong>Sogang University</strong></p>
+                <ul>
+                    <li>Math Help Center, Department of Mathematics</li>
+                    <li>Macro Economics, Economic Statistics, Econometrics</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Please feel free to reach out via email. You can find my contact information and other links in the sidebar.</p>
+                <p>Email: <a href="mailto:cho472@purdue.edu">cho472@purdue.edu</a></p>
+            </section>
+
+            <footer>
+                <p>© 2024 Young Hyun Cho</p>
+            </footer>
+        </main>
     </div>
 </body>
 </html>
