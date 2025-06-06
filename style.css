@@ -4,7 +4,7 @@ body {
     color: #333;
     line-height: 1.6;
     margin: 0;
-    background-color: #ffffff; /* 흰색 배경으로 변경 */
+    background-color: #ffffff;
 }
 
 /* ===== 전체 페이지 레이아웃 (사이드바 + 콘텐츠) ===== */
@@ -16,11 +16,11 @@ body {
 
 /* ===== 좌측 고정 사이드바 ===== */
 .sidebar {
-    width: 280px; /* 사이드바 너비 */
-    flex-shrink: 0; /* 사이드바 너비가 줄어들지 않도록 설정 */
+    width: 280px;
+    flex-shrink: 0;
     padding: 40px 20px;
-    height: 100vh; /* 화면 전체 높이 */
-    position: sticky; /* 스크롤을 따라다니도록 설정 */
+    height: 100vh;
+    position: sticky;
     top: 0;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .sidebar .contact-links a {
-    display: block; /* 링크를 한 줄씩 차지하도록 변경 */
+    display: block;
     margin-bottom: 8px;
     color: #00509e;
     text-decoration: none;
@@ -63,9 +63,9 @@ body {
 
 /* ===== 우측 콘텐츠 영역 (내비게이션 + 메인 콘텐츠) ===== */
 .content-area {
-    flex-grow: 1; /* 남은 공간을 모두 차지 */
+    flex-grow: 1;
     padding: 20px 40px;
-    border-left: 1px solid #e9ecef; /* 좌측 사이드바와 구분선 */
+    border-left: 1px solid #e9ecef;
 }
 
 .top-nav {
@@ -102,42 +102,53 @@ h2 {
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: #495057;
-    margin-top: 30px;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-.publication {
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
-.publication-title {
-    font-size: 1.1em;
-    font-weight: bold;
-    margin: 0;
+/* ===== 논문 목록 스타일 (수정 및 추가) ===== */
+.publication {
+    margin-bottom: 25px;
+    padding-left: 15px;
+    border-left: 3px solid #e9ecef;
 }
 
-.publication-title a {
+.publication-title {
+    font-size: 1.15em;
+    font-weight: 600; /* semi-bold */
+    margin: 0 0 5px 0;
+}
+
+.publication-authors {
+    margin: 0 0 5px 0;
     color: #333;
 }
 
-.publication-title a:hover {
-    color: #00509e;
-    text-decoration: none;
+.publication-meta {
+    margin: 0;
+    color: #666;
+    font-size: 0.95em;
 }
 
-.publication-meta {
+.publication-meta em { /* 이탤릭체 스타일 */
     font-style: italic;
-    color: #666;
-    margin: 5px 0 0 0;
+}
+
+.publication-links {
+    margin-top: 5px;
+}
+
+.publication-links a {
+    font-weight: bold;
+    color: #00509e;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.publication-links a:hover {
+    text-decoration: underline;
 }
 
 footer {
