@@ -108,7 +108,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-/* ===== 논문 목록 스타일 (수정 및 추가) ===== */
+/* ===== 논문 목록 스타일 ===== */
 .publication {
     margin-bottom: 25px;
     padding-left: 15px;
@@ -117,7 +117,7 @@ h3 {
 
 .publication-title {
     font-size: 1.15em;
-    font-weight: 600; /* semi-bold */
+    font-weight: 600;
     margin: 0 0 5px 0;
 }
 
@@ -132,7 +132,7 @@ h3 {
     font-size: 0.95em;
 }
 
-.publication-meta em { /* 이탤릭체 스타일 */
+.publication-meta em {
     font-style: italic;
 }
 
@@ -149,6 +149,41 @@ h3 {
 
 .publication-links a:hover {
     text-decoration: underline;
+}
+
+/* ===== 강의 경력 목록 스타일 (추가됨) ===== */
+h4 {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.institution-group {
+    margin-bottom: 25px;
+}
+
+.course-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.course-entry:last-child {
+    border-bottom: none;
+}
+
+.course-title {
+    padding-right: 20px;
+}
+
+.course-term {
+    color: #666;
+    flex-shrink: 0; /* 기간이 줄바꿈되지 않도록 함 */
+    white-space: nowrap; /* 기간이 한 줄로 표시되도록 함 */
 }
 
 footer {
