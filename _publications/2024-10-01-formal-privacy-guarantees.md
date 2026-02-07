@@ -1,4 +1,3 @@
-# /Users/younghyuncho/Documents/GitHub/young/_publications/2024-10-01-formal-privacy-guarantees.md
 ---
 title: "Formal Privacy Guarantees with Invariant Statistics"
 collection: publications
