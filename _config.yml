@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Young Hyun Cho"
 title_separator          : "-"
 name                     : &name "Young Hyun Cho"
-description              : &description "Young Hyun Cho's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Personal homepage of Young Hyun Cho"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://yhcho-stat.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "/young" # the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository               : "yhcho-stat/young"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "YHCHO_profile.jpg"
   name             : "Young Hyun Cho"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Candidate in Statistics"
@@ -35,7 +35,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=07AoyNcAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=07AoyNcAAAAJ&hl=ko"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : 
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "yhcho-stat"
+  github           : 
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "young-hyun-cho-b0299236a"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
