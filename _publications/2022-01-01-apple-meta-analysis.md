@@ -1,5 +1,6 @@
 ---
 title: "Metabolic and cardiovascular benefits of apple and apple-derived products: a systematic review and meta-analysis of randomized controlled trials"
+authors: "Sun Jo Kim, Nguyen Hoang Anh, Cheol Woon Jung, Nguyen Phuoc Long, Seongoh Park, Young Hyun Cho, et al."
 collection: publications
 category: preprints
 permalink: /publication/apple-meta-analysis/
