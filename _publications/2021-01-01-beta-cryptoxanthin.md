@@ -1,4 +1,3 @@
-# /Users/younghyuncho/Documents/GitHub/young/_publications/2021-01-01-beta-cryptoxanthin.md
 ---
 title: "Effects of β-Cryptoxanthin on Improvement in Osteoporosis Risk: A Systematic Review and Meta-Analysis of Observational Studies"
 collection: publications
