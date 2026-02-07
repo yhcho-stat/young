@@ -1,4 +1,3 @@
-# /Users/younghyuncho/Documents/GitHub/young/_publications/2024-01-01-change-point-pillais.md
 ---
 title: "Change point detection in high dimensional covariance matrix using Pillai’s statistics"
 collection: publications
