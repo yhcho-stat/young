@@ -1,4 +1,3 @@
-# /Users/younghyuncho/Documents/GitHub/young/_publications/2022-01-01-apple-meta-analysis.md
 ---
 title: "Metabolic and cardiovascular benefits of apple and apple-derived products: a systematic review and meta-analysis of randomized controlled trials"
 collection: publications
