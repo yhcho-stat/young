@@ -1,5 +1,6 @@
 ---
 title: "Formal Privacy Guarantees with Invariant Statistics"
+authors: "Young Hyun Cho and Jordan Awan"
 collection: publications
 category: preprints
 permalink: /publication/formal-privacy-guarantees-with-invariant-statistics/
