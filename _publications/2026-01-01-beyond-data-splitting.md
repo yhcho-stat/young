@@ -1,5 +1,6 @@
 ---
 title: "Beyond Data Splitting: Full-Data Conformal Prediction by Differential Privacy"
+authors: "Young Hyun Cho and Jordan Awan"
 collection: publications
 category: inprep
 permalink: /publication/beyond-data-splitting-full-data-conformal-prediction/
