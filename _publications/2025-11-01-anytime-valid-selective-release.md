@@ -1,4 +1,3 @@
-# /Users/younghyuncho/Documents/GitHub/young/_publications/2025-11-01-anytime-valid-selective-release.md
 ---
 title: "Anytime-Valid Selective Release for Adaptive Decision Pipelines"
 collection: publications
