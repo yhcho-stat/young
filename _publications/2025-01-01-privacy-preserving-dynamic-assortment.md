@@ -4,7 +4,7 @@ collection: publications
 category: preprints
 permalink: /publication/privacy-preserving-dynamic-assortment-selection/
 date: 2025-01-01
-venue: "Under Major Revision at Operations Research"
+venue: "Under Revision"
 paperurl: "https://arxiv.org/pdf/2410.22488"
 citation: "Young Hyun Cho and Will Wei Sun"
 ---
