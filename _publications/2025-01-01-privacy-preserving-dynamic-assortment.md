@@ -1,4 +1,3 @@
-# /Users/younghyuncho/Documents/GitHub/young/_publications/2025-01-01-privacy-preserving-dynamic-assortment.md
 ---
 title: "Privacy-Preserving Dynamic Assortment Selection"
 collection: publications
