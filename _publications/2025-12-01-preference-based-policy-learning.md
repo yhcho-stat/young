@@ -1,4 +1,3 @@
-# /Users/younghyuncho/Documents/GitHub/young/_publications/2025-12-01-preference-based-policy-learning.md
 ---
 title: "Differentially Private Preference-Based Policy Learning via Private Reward Estimation"
 collection: publications
