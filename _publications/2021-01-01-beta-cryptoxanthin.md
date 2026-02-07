@@ -1,5 +1,6 @@
 ---
 title: "Effects of β-Cryptoxanthin on Improvement in Osteoporosis Risk: A Systematic Review and Meta-Analysis of Observational Studies"
+authors: "Sun Jo Kim, Nguyen Hoang Anh, Nguyen Co Diem, Seongoh Park, Young Hyun Cho, et al."
 collection: publications
 category: preprints
 permalink: /publication/beta-cryptoxanthin-osteoporosis/
