@@ -8,5 +8,5 @@ date: 2026-01-01
 pub_status: "inprogress"
 venue: "Manuscript in preparation"
 citation: "Young Hyun Cho and Jordan Awan"
+award: "Winner, 2026 ASA Student Paper Award (Statistical Learning and Data Science Section)"
 ---
-Winner, 2026 American Statistical Association Student Paper Award (Statistical Learning and Data Science Section).
