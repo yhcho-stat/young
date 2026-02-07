@@ -1,5 +1,6 @@
 ---
 title: "Anytime-Valid Selective Release for Adaptive Decision Pipelines"
+authors: "Young Hyun Cho and Will Wei Sun"
 collection: publications
 category: inprep
 permalink: /publication/anytime-valid-selective-release/
