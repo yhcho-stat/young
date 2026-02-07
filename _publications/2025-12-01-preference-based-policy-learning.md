@@ -1,5 +1,6 @@
 ---
 title: "Differentially Private Preference-Based Policy Learning via Private Reward Estimation"
+authors: "Young Hyun Cho and Will Wei Sun"
 collection: publications
 category: inprep
 permalink: /publication/dp-preference-based-policy-learning/
