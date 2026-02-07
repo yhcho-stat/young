@@ -9,5 +9,5 @@ pub_status: "inprogress"
 venue: "Under Revision"
 paperurl: "https://arxiv.org/pdf/2410.22488"
 citation: "Young Hyun Cho and Will Wei Sun"
+award: "Winner, 2025 ASA Student Paper Award (Business and Economic Statistics Section)"
 ---
-Winner, 2025 American Statistical Association Student Paper Award (Business and Economic Statistics Section).
