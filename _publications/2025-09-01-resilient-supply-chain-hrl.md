@@ -1,4 +1,3 @@
-# /Users/younghyuncho/Documents/GitHub/young/_publications/2025-09-01-resilient-supply-chain-hrl.md
 ---
 title: "Resilient Management via Hierarchical Reinforcement Learning"
 collection: publications
