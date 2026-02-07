@@ -1,5 +1,6 @@
 ---
 title: "Privacy-Preserving Dynamic Assortment Selection"
+authors: "Young Hyun Cho and Will Wei Sun"
 collection: publications
 category: preprints
 permalink: /publication/privacy-preserving-dynamic-assortment-selection/
