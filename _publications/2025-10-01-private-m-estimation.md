@@ -1,4 +1,3 @@
-# /Users/younghyuncho/Documents/GitHub/young/_publications/2025-10-01-private-m-estimation.md
 ---
 title: "Private Statistical Inference for M-Estimation via the Exponential Mechanism"
 collection: publications
