@@ -1,4 +1,3 @@
-# /Users/younghyuncho/Documents/GitHub/young/_publications/2026-01-01-beyond-data-splitting.md
 ---
 title: "Beyond Data Splitting: Full-Data Conformal Prediction by Differential Privacy"
 collection: publications
