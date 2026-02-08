@@ -1,5 +1,5 @@
 ---
-title: "Joint Statistical Meetings"
+title: "Joint Statistical Meetings 2025"
 collection: talks
 type: "Talk"
 permalink: /talks/jsm-award-paper-2025/
