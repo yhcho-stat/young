@@ -1,5 +1,5 @@
 ---
-title: "Purdue Statistics Graduate Student Workshop 2024"
+title: "Purdue Statistics Graduate Student Workshop Competition 2024 - First Prize"
 collection: talks
 type: "Talk"
 permalink: /talks/purdue-graduate-workshop-2024/
