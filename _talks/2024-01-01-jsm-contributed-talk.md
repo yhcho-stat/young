@@ -1,5 +1,5 @@
 ---
-title: "Joint Statistical Meetings"
+title: "Joint Statistical Meetings 2024"
 collection: talks
 type: "Talk"
 permalink: /talks/jsm-contributed-2024/
