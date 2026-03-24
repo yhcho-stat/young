@@ -1,11 +1,11 @@
 ---
-title: "Differentially Private Preference-Based Policy Learning via Private Reward Estimation"
+title: "Privacy-Preserving Reinforcement Learning from Human Feedback via Decoupled Reward Modeling"
 authors: "Young Hyun Cho and Will Wei Sun"
 collection: publications
-category: inprep
+category: preprints
 permalink: /publication/dp-preference-based-policy-learning/
-date: 2025-12-01
+date: 2026-03-23
 pub_status: "inprogress"
-venue: "Manuscript in preparation"
+venue: "Under Review"
 citation: "Young Hyun Cho and Will Wei Sun"
 ---
