@@ -20,3 +20,17 @@ author_profile: true
     B.A., Economics, Magna Cum Laude (Mar 2011 - Feb 2019)
   </li>
 </ul>
+
+<h2>Awards and Honors</h2>
+<ul>
+  <li>2026 ASA Student Paper Award, Statistical Learning and Data Science Section</li>
+  <li>2026 Purdue University Teaching Academy Graduate Teaching Award</li>
+  <li>2025 ASA Student Paper Award, Business and Economic Statistics Section</li>
+  <li>2025 First Prize, Purdue Statistics Graduate Student Competition</li>
+  <li>2025 NSF Travel Award, ICSA Applied Statistics Symposium</li>
+  <li>2025 George Casella Travel Award, Purdue University</li>
+  <li>2024 First Prize, Purdue Statistics Graduate Student Competition</li>
+  <li>2021 First Prize, Student Poster Competition, Korean Statistical Society</li>
+  <li>2020 High-Potential Individuals Global Training Scholarship, IITP Korea</li>
+  <li>Magna Cum Laude, B.A. in Economics, Sogang University</li>
+</ul>
