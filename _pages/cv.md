@@ -9,7 +9,7 @@ author_profile: true
 <ul>
   <li>
     <strong>Purdue University</strong>, West Lafayette, IN<br>
-    Ph.D. Candidate, Statistics (Aug 2021 - Current)
+    Ph.D. Candidate, Statistics (Aug 2021 - May 2026)
   </li>
   <li>
     <strong>Seoul National University</strong>, Seoul, South Korea<br>
@@ -32,5 +32,11 @@ author_profile: true
   <li>2024 First Prize, Purdue Statistics Graduate Student Competition</li>
   <li>2021 First Prize, Student Poster Competition, Korean Statistical Society</li>
   <li>2020 High-Potential Individuals Global Training Scholarship, IITP Korea</li>
-  <li>Magna Cum Laude, B.A. in Economics, Sogang University</li>
+  <li>2019 Magna Cum Laude, B.A. in Economics, Sogang University</li>
+</ul>
+
+<h2>Academic Service</h2>
+<ul>
+  <li>Journal Reviewer: <em>Journal of the American Statistical Association</em>, <em>The American Statistician</em>, <em>Journal of Information Security and Applications</em></li>
+  <li>Session Chair, ICSA Applied Statistics Symposium 2025, Session on “Statistics, Artificial Intelligence and Large Language Models”</li>
 </ul>
