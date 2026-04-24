@@ -24,6 +24,7 @@ author_profile: true
 <h2>Awards and Honors</h2>
 <ul>
   <li>2026 ASA Student Paper Award, Statistical Learning and Data Science Section</li>
+  <li>2026 Outstanding Teaching by a Statistics TA, Purdue University College of Science Graduate Awards</li>
   <li>2026 Purdue University Teaching Academy Graduate Teaching Award</li>
   <li>2025 ASA Student Paper Award, Business and Economic Statistics Section</li>
   <li>2025 First Prize, Purdue Statistics Graduate Student Competition</li>
