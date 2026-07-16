@@ -5,7 +5,8 @@ collection: publications
 category: preprints
 permalink: /publication/dp-preference-based-policy-learning/
 date: 2026-03-23
-pub_status: "inprogress"
-venue: "Under Review"
+pub_status: "accepted"
+venue: "Accepted, Statistical Learning and Data Science"
+paperurl: "https://arxiv.org/pdf/2603.22563"
 citation: "Young Hyun Cho and Will Wei Sun"
 ---

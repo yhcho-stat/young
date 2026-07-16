@@ -5,11 +5,21 @@ permalink: /cv/
 author_profile: true
 ---
 
+<h2>Academic Positions</h2>
+<ul>
+  <li>
+    <strong>Harvard University</strong>, Allston, MA<br>
+    Postdoctoral Fellow, Department of Statistics (Jul 2026 - Present)<br>
+    Mentor: Susan A. Murphy
+  </li>
+</ul>
+
 <h2>Education</h2>
 <ul>
   <li>
     <strong>Purdue University</strong>, West Lafayette, IN<br>
-    Ph.D. Candidate, Statistics (Aug 2021 - May 2026)
+    Ph.D., Statistics (Aug 2021 - May 2026)<br>
+    Advisors: Will Wei Sun and Jordan Awan
   </li>
   <li>
     <strong>Seoul National University</strong>, Seoul, South Korea<br>
