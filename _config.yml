@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Young Hyun Cho"
 title_separator          : "-"
 name                     : &name "Young Hyun Cho"
-description              : &description "Personal homepage of Young Hyun Cho"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Personal homepage of Young Hyun Cho, a statistician working on reinforcement learning, trustworthy AI, privacy, and uncertainty quantification."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://yhcho-stat.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "/young" # the subpath of your site, e.g. "/blog"
@@ -26,11 +26,11 @@ author:
   avatar           : "YHCHO_profile.jpg"
   name             : "Young Hyun Cho"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. Candidate in Statistics"
-  location         : "West Lafayette, IN"
-  employer         : "Purdue University"
+  bio              : "Postdoctoral Fellow in Statistics"
+  location         : "Allston, MA"
+  employer         : "Harvard University"
   uri              : # URL
-  email            : "cho472@purdue.edu" 
+  email            : "younghyuncho@fas.harvard.edu"
 
   # Academic websites
   academia         : # URL

@@ -26,7 +26,13 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline" style="margin:0 0 0.12rem 0; line-height:1.25;">{{ title }}</h2>
+    <h2 class="archive__item-title" itemprop="headline" style="margin:0 0 0.12rem 0; line-height:1.25;">
+      {% if post.collection == 'publications' and post.paperurl %}
+        <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ title }}</a>
+      {% else %}
+        {{ title }}
+      {% endif %}
+    </h2>
 
     {% if post.collection == 'publications' and post.authors %}
       <p class="pub-authors" style="margin:0.02rem 0;">{{ post.authors }}</p>
