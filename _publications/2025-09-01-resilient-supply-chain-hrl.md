@@ -1,11 +1,11 @@
 ---
-title: "Resilient Management via Hierarchical Reinforcement Learning"
+title: "Two-Timescale Hierarchical Reinforcement Learning for Resilent Operations"
 authors: "Young Hyun Cho, Franz Stoll, Will Wei Sun, Guang Lin, and Stephan Biller"
 collection: publications
-category: inprep
+category: preprints
 permalink: /publication/resilient-supply-chain-hrl/
 date: 2025-09-01
 pub_status: "inprogress"
-venue: "Manuscript in preparation"
+venue: "Under Review"
 citation: "Young Hyun Cho, Franz Stoll, Will Wei Sun, Guang Lin, and Stephan Biller"
 ---
