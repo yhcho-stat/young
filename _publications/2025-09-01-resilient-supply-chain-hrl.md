@@ -4,7 +4,7 @@ authors: "Young Hyun Cho, Franz Stoll, Will Wei Sun, Guang Lin, and Stephan Bill
 collection: publications
 category: preprints
 permalink: /publication/resilient-supply-chain-hrl/
-date: 2025-09-01
+date: 2026-07-01
 pub_status: "inprogress"
 venue: "Under Review"
 citation: "Young Hyun Cho, Franz Stoll, Will Wei Sun, Guang Lin, and Stephan Biller"
