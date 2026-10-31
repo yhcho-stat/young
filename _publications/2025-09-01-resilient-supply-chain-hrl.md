@@ -1,5 +1,5 @@
 ---
-title: "Two-Timescale Hierarchical Reinforcement Learning for Resilent Operations"
+title: "Two-Timescale Hierarchical Reinforcement Learning for Resilient Operations"
 authors: "Young Hyun Cho, Franz Stoll, Will Wei Sun, Guang Lin, and Stephan Biller"
 collection: publications
 category: preprints

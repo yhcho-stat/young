@@ -1,9 +1,10 @@
 ---
-title: "INFORMS Annual Meeting 2025"
+title: "INFORMS Annual Meeting"
 collection: talks
 type: "Talk"
-permalink: /talks/informs-2025/
+permalink: /talks/informs-annual-meeting/
 venue: "INFORMS Annual Meeting"
-date: 2025-01-01
-location: ""
+date: 2025-10-01
+talk_type: "Invited Talk"
+upcoming: true
 ---

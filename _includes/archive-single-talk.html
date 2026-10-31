@@ -1,13 +1,3 @@
 {% include base_path %}
-
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item">
-    <p style="margin:0.12rem 0;">{{ title }}</p>
-  </article>
-</div>
+{% if post.id %}{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}{% else %}{% assign title = post.title %}{% endif %}
+<div class="{{ include.type | default: "list" }}__item"><article class="archive__item"><p style="margin:0.12rem 0; line-height:1.45;">{{ title }}{% if post.talk_type %} ({{ post.talk_type }}){% endif %}{% if post.upcoming %} (Upcoming){% endif %}{% unless post.hide_date %}{% if post.date %}<span style="color:#666;"> — {{ post.date | date: "%b %Y" }}</span>{% endif %}{% endunless %}</p></article></div>

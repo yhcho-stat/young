@@ -49,5 +49,11 @@ author_profile: true
 <h2>Academic Service</h2>
 <ul>
   <li>Journal Reviewer: <em>Journal of the American Statistical Association</em>, <em>The American Statistician</em>, <em>Journal of Information Security and Applications</em></li>
+  <li>Award Committee Reviewer:
+    <ul>
+      <li>ENAR 2027 Distinguished Student Paper Award Committee</li>
+      <li>SLDS 2026 Student, Post-doc, and Early Career Researcher Paper Awards</li>
+    </ul>
+  </li>
   <li>Session Chair, ICSA Applied Statistics Symposium 2025, Session on “Statistics, Artificial Intelligence and Large Language Models”</li>
 </ul>

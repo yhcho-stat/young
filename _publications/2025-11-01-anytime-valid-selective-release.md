@@ -5,8 +5,8 @@ collection: publications
 category: preprints
 permalink: /publication/anytime-valid-selective-release/
 date: 2026-05-13
-pub_status: "inprogress"
+pub_status: "preprint"
 paperurl: "https://arxiv.org/pdf/2605.12947"
-venue: "Under Review"
+venue: "Preprint"
 citation: "Young Hyun Cho and Will Wei Sun"
 ---

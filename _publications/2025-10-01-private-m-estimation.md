@@ -6,6 +6,6 @@ category: inprep
 permalink: /publication/private-statistical-inference-m-estimation/
 date: 2025-10-01
 pub_status: "inprogress"
-venue: "Manuscript in preparation"
+venue: "Manuscript in Preparation"
 citation: "Yu Wei Chen, Young Hyun Cho and Jordan Awan"
 ---

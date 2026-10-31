@@ -1,9 +1,10 @@
 ---
-title: "CFE-CMStatistics 2026 (Upcoming)"
+title: "CFE–CMStatistics Conference"
 collection: talks
 type: "Talk"
 permalink: /talks/cfe-cmstatistics-2026/
-venue: "CFE-CMStatistics 2026"
+venue: "CFE–CMStatistics Conference"
 date: 2026-12-12
-location: "Berlin, Germany"
+talk_type: "Invited Talk"
+upcoming: true
 ---

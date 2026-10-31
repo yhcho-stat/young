@@ -1,9 +1,10 @@
 ---
-title: "Joint Statistical Meetings 2025"
+title: "Joint Statistical Meetings"
 collection: talks
 type: "Talk"
-permalink: /talks/jsm-award-paper-2025/
+permalink: /talks/jsm-award-paper-presentation/
 venue: "Joint Statistical Meetings"
-date: 2025-01-01
-location: ""
+date: 2025-08-01
+talk_type: "Award Session Talk"
+upcoming: true
 ---
