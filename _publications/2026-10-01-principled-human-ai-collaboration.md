@@ -7,5 +7,6 @@ permalink: /publication/principled-human-ai-collaboration-in-agentic-workflows/
 date: 2026-10-01
 pub_status: "inprogress"
 venue: "Under Review"
+paperurl: "https://arxiv.org/pdf/2611.01566"
 citation: "Young Hyun Cho and Will Wei Sun"
 ---
